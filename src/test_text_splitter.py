@@ -1,6 +1,6 @@
 import unittest
 from textnode import TextNode, TextType
-from text_splitter import split_nodes_delimiter, split_nodes_image, split_nodes_link
+from text_splitter import split_nodes_delimiter, split_nodes_image, split_nodes_link, text_to_textnodes
 
 class TestSplitNodesDelimiter(unittest.TestCase):
     def test_no_delimiter(self):
@@ -192,3 +192,42 @@ class TestSplitNodesLink(unittest.TestCase):
             ],
             new_nodes,
         )
+
+
+def test_text_to_textnodes():
+    text = "This is **text** with an _italic_ word and a `code block` and an ![image](https://example.com/img.png) and a [link](https://boot.dev)"
+    nodes = text_to_textnodes(text)
+    
+    assert len(nodes) == 10
+    
+    assert nodes[0].text == "This is "
+    assert nodes[0].text_type == TextType.TEXT
+    
+    assert nodes[1].text == "text"
+    assert nodes[1].text_type == TextType.BOLD
+    
+    assert nodes[2].text == " with an "
+    assert nodes[2].text_type == TextType.TEXT
+    
+    assert nodes[3].text == "italic"
+    assert nodes[3].text_type == TextType.ITALIC
+    
+    assert nodes[4].text == " word and a "
+    assert nodes[4].text_type == TextType.TEXT
+    
+    assert nodes[5].text == "code block"
+    assert nodes[5].text_type == TextType.CODE
+    
+    assert nodes[6].text == " and an "
+    assert nodes[6].text_type == TextType.TEXT
+    
+    assert nodes[7].text == "image"
+    assert nodes[7].text_type == TextType.IMAGE
+    assert nodes[7].url == "https://example.com/img.png"
+    
+    assert nodes[8].text == " and a "
+    assert nodes[8].text_type == TextType.TEXT
+    
+    assert nodes[9].text == "link"
+    assert nodes[9].text_type == TextType.LINK
+    assert nodes[9].url == "https://boot.dev"
