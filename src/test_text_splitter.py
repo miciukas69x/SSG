@@ -1,6 +1,6 @@
 import unittest
 from textnode import TextNode, TextType
-from text_splitter import split_nodes_delimiter, split_nodes_image, split_nodes_link, text_to_textnodes
+from text_splitter import split_nodes_delimiter, split_nodes_image, split_nodes_link, text_to_textnodes, markdown_to_blocks
 
 class TestSplitNodesDelimiter(unittest.TestCase):
     def test_no_delimiter(self):
@@ -231,3 +231,51 @@ def test_text_to_textnodes():
     assert nodes[9].text == "link"
     assert nodes[9].text_type == TextType.LINK
     assert nodes[9].url == "https://boot.dev"
+
+
+class TestMarkdownToBlocks(unittest.TestCase):
+    def test_markdown_to_blocks(self):
+        md = """
+This is **bolded** paragraph
+
+This is another paragraph with _italic_ text and `code` here
+This is the same paragraph on a new line
+
+- This is a list
+- with items
+"""
+        blocks = markdown_to_blocks(md)
+        self.assertEqual(
+            blocks,
+            [
+                "This is **bolded** paragraph",
+                "This is another paragraph with _italic_ text and `code` here\nThis is the same paragraph on a new line",
+                "- This is a list\n- with items",
+            ],
+        )
+        
+    def test_empty_markdown(self):
+        md = ""
+        blocks = markdown_to_blocks(md)
+        self.assertEqual(blocks, [])
+
+    def test_markdown_with_excessive_newlines(self):
+        md = """
+First paragraph
+
+
+Second paragraph
+
+
+
+Third paragraph
+"""
+        blocks = markdown_to_blocks(md)
+        self.assertEqual(
+            blocks,
+            [
+                "First paragraph",
+                "Second paragraph",
+                "Third paragraph",
+            ],
+        )
