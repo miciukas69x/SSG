@@ -2,37 +2,38 @@
 
 ![JRR Tolkien sitting](/images/tolkien.png)
 
-Stai kame reples: **programavo tai ne visiskai pats**.
+Here's the deal, **I like Tolkien**.
 
-> "As esu AI naudotojas, o tu kas"
+> "I am in fact a Hobbit in all but size."
 >
-> -- 4.2.0. Miciukas
+> -- J.R.R. Tolkien
 
-## Siaip postukai, del vietos
+## Blog posts
 
 - [Why Glorfindel is More Impressive than Legolas](/blog/glorfindel)
 - [Why Tom Bombadil Was a Mistake](/blog/tom)
 - [The Unparalleled Majesty of "The Lord of the Rings"](/blog/majesty)
 
-## Kodel as dabar programuoju
+## Reasons I like Tolkien
 
-- lavinu smegenis
-- mokausi spresti problemas
-- sukursiu projekta
-- panikem kodas gerai atrodo is sono 
+- You can spend years studying the legendarium and still not understand its depths
+- It can be enjoyed by children and adults alike
+- Disney _didn't ruin it_ (okay, but Amazon might have)
+- It created an entirely new genre of fantasy
 
-## My megstamiausios masinos (ne is eiles)
+## My favorite characters (in order)
 
-1. Bambalis
-2. Audine
-3. Mercas
-4. Chuliganke
-5. Zopel
-6. Mistubisi
-7. Wolkswagebn
-8. Tojota
+1. Gandalf
+2. Bilbo
+3. Sam
+4. Glorfindel
+5. Galadriel
+6. Elrond
+7. Thorin
+8. Sauron
+9. Aragorn
 
- `elflang` looks like (the perfect coding language):
+Here's what `elflang` looks like (the perfect coding language):
 
 ```
 func main(){
@@ -40,6 +41,7 @@ func main(){
 }
 ```
 
-Nori susisiekti? [Susisiek cia](/contact).
+Want to get in touch? [Contact me here](/contact).
 
+This site was generated with a custom-built [static site generator](https://www.boot.dev/courses/build-static-site-generator-python) from the course on [Boot.dev](https://www.boot.dev).
 
