@@ -1,4 +1,4 @@
-# Miciukas pats geriausias programisius
+# Tolkien Fan Club
 
 ![JRR Tolkien sitting](/images/tolkien.png)
 
