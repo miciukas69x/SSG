@@ -1,5 +1,5 @@
 import unittest
-from markdown_blocks import markdown_to_blocks, block_to_block_type, BlockType, markdown_to_html_node
+from markdown_blocks import markdown_to_blocks, block_to_block_type, BlockType, markdown_to_html_node, extract_title
 
 
 
@@ -158,6 +158,37 @@ the **same** even with inline stuff
             html,
             "<div><pre><code>This is text that _should_ remain\nthe **same** even with inline stuff\n</code></pre></div>",
         )
+
+class TestExtractTitle(unittest.TestCase):
+    def test_extract_simple_title(self):
+        markdown = "# Hello, World!"
+        expected = "Hello, World!"
+        self.assertEqual(extract_title(markdown), expected)
+        
+    def test_extract_title_with_extra_whitespace(self):
+        markdown = "#     Lots of spaces    "
+        expected = "Lots of spaces"
+        self.assertEqual(extract_title(markdown), expected)
+        
+    def test_extract_title_with_multiple_lines(self):
+        markdown = "# Title\nThis is paragraph text\n## Subtitle"
+        expected = "Title"
+        self.assertEqual(extract_title(markdown), expected)
+        
+    def test_title_in_middle_of_document(self):
+        markdown = "Some text before\n# Main Title\nSome text after"
+        expected = "Main Title"
+        self.assertEqual(extract_title(markdown), expected)
+        
+    def test_no_title_raises_exception(self):
+        markdown = "This is text without a title\nMore text here"
+        with self.assertRaises(Exception):
+            extract_title(markdown)
+            
+    def test_header_without_space_not_considered_title(self):
+        markdown = "#Not a proper title"
+        with self.assertRaises(Exception):
+            extract_title(markdown)
 
 
 if __name__ == "__main__":

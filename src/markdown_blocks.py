@@ -3,6 +3,13 @@ from htmlnode import ParentNode
 from inline_markdown import text_to_textnodes
 from textnode import text_node_to_html_node, TextNode, TextType
 
+def extract_title(markdown):
+    for line in markdown.split("\n"):
+        if line.startswith("# "):
+            return line[2:].strip()
+    
+    raise Exception("No h1 header found in the markdown content")
+
 
 class BlockType(Enum):
     PARAGRAPH = "paragraph"
