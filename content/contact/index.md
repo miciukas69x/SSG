@@ -1,9 +1,9 @@
-# Contact the Author
+# Susisiek su autorium
 
-[< Back Home](/)
+[< Grizti](/)
 
-Give me a call anytime to chat about Tolkien!
+Pasuk kada nori, pasikalbesim
 
-`555-555-5555`
+`0617334492`
 
-**"Váya márië."**
+**"Ziurek saves"**
