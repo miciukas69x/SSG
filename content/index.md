@@ -1,6 +1,6 @@
 # Matas Michailinas
 
-![Mano foto](/images/matasmichailinas.png)
+![Mano foto](/SSG/images/matasmichailinas.png)
 
 > "2nd Year International Finance & Control Student at **Hanze UAS, NL**"
 
@@ -14,9 +14,9 @@ and eventually turning skills into independence.
 
 ## My Coding Projects (a stack)
 
-- [AI Agent](/projects/AIAgent)
-- [Static Site Generator](/projects/SSG)
-- [Asteroids Game](/projects/Asteroids)
+- [AI Agent](/SSG/projects/AIAgent)
+- [Static Site Generator](/SSG/projects/SSG)
+- [Asteroids Game](/SSG/projects/Asteroids)
 
 
 ## Finance
@@ -34,5 +34,5 @@ apply_patch --fix balding
 brew install coffee
 ```
 
-Need to contact me? [Contact](/contact).
+Need to contact me? [Contact](/SSG/contact).
 
