@@ -1,44 +1,38 @@
-# Miciukas pats geriausias programisius
+# Matas Michailinas
 
-![JRR Tolkien sitting](/images/tolkien.png)
+![Mano foto](/images/matasmichailinas.png)
 
-Stai kame reples: **programavo tai ne visiskai pats**.
+> "2nd Year International Finance & Control Student at **Hanze UAS, NL**"
 
-> "As esu AI naudotojas, o tu kas"
->
-> -- 4.2.0. Miciukas
+## About me
 
-## Siaip postukai, del vietos
+I'm an aspiring young (19yo) gentleman drawn to programming because I enjoy the challenge 
+of building and solving problems. Alongside that, I study finance, and I'm working 
+toward blending the two into something meaningful (tools, projects, maybe even businesses).
+Money matters, but for me it's more about the flow that comes from learning, experimenting,
+and eventually turning skills into independence.
 
-- [Why Glorfindel is More Impressive than Legolas](/blog/glorfindel)
-- [Why Tom Bombadil Was a Mistake](/blog/tom)
-- [The Unparalleled Majesty of "The Lord of the Rings"](/blog/majesty)
+## My Coding Projects (a stack)
 
-## Kodel as dabar programuoju
+- [AI Agent](/projects/AIAgent)
+- [Static Site Generator](/projects/SSG)
+- [Asteroids Game](/projects/Asteroids)
 
-- lavinu smegenis
-- mokausi spresti problemas
-- sukursiu projekta
-- panikem kodas gerai atrodo is sono 
 
-## My megstamiausios masinos (ne is eiles)
+## Finance
 
-1. Bambalis
-2. Audine
-3. Mercas
-4. Chuliganke
-5. Zopel
-6. Mistubisi
-7. Wolkswagebn
-8. Tojota
+1. d
+2. e
 
- `elflang` looks like (the perfect coding language):
+ 
+If only coding life was this easy:
 
 ```
-func main(){
-    fmt.Println("Aiya, Ambar!")
-}
+# system update
+apply_patch --remove back_pain
+apply_patch --fix balding
+brew install coffee
 ```
 
-Nori susisiekti? [Susisiek cia](/contact).
+Need to contact me? [Contact](/contact).
 

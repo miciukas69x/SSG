@@ -1,9 +1,11 @@
-# Susisiek su autorium
+# Contact the developer
 
-[< Grizti](/)
+[< Back](/)
 
-Pasuk kada nori, pasikalbesim
+[LinkedIn](https://www.linkedin.com/in/matas-michailinas-48ba9b2a1/)
 
-`0617334492`
+**michailinasmatas@gmail.com**
 
-**"Ziurek saves"**
+**+31617334492 - phone number for work reasons.**
+
+
