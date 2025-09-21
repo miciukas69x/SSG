@@ -1,12 +1,12 @@
 # Matas Michailinas
 
-![Mano foto](/SSG/images/matasmichailinas.png)
+![Mano foto](/images/matasmichailinas.png)
 
 > "2nd Year International Finance & Control Student at **Hanze UAS, NL**"
 
 ## About me
 
-I'm an aspiring young (19yo) gentleman drawn to programming because I enjoy the challenge 
+I'm an aspiring, young (19yo) gentleman drawn to programming because I enjoy the challenge 
 of building and solving problems. Alongside that, I study finance, and I'm working 
 toward blending the two into something meaningful (tools, projects, maybe even businesses).
 Money matters, but for me it's more about the flow that comes from learning, experimenting,
@@ -14,18 +14,29 @@ and eventually turning skills into independence.
 
 ## My Coding Projects (a stack)
 
-- [AI Agent](/SSG/projects/AIAgent)
-- [Static Site Generator](/SSG/projects/SSG)
-- [Asteroids Game](/SSG/projects/Asteroids)
+- [AI Agent](/projects/AIAgent)
+- [Static Site Generator](/projects/SSG)
+- [Asteroids Game](/projects/Asteroids)
 
 
 ## Finance
 
-1. d
-2. e
+I’m studying International Finance & Control at Hanze UAS, where I’ve been building a broad foundation across corporate and international finance, management, and data. So far my coursework has covered:
 
- 
-If only coding life was this easy:
+- Business Administration & Strategic Management
+- Quantitative Data Analytics & International Finance Economics
+- Corporate Finance & Management Accounting
+- International Business Law
+
+Along the way I've also picked up skills that let me actually work with the numbers instead of just learning theory:
+
+- Excel (obvious)
+- SQL (structuring and querying data)
+- Python (basic data analysis)
+
+
+
+##### If only coding life was this easy:
 
 ```
 # system update
@@ -34,5 +45,5 @@ apply_patch --fix balding
 brew install coffee
 ```
 
-Need to contact me? [Contact](/SSG/contact).
+Need to contact me? [Contact](/contact).
 

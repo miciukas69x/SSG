@@ -9,7 +9,7 @@
 > It’s just you, some rocks flying at random, and the cold laws of collision detection. 
 > The rules are simple, but the challenge is always fresh — both for the player and the programmer."
 
-[GitHub page](https://github.com/miciukas69x/asteroids)
+[View on GitHub](https://github.com/miciukas69x/asteroids)
 
 ## Introduction
 
@@ -21,7 +21,7 @@ This project is a modern take on the classic Asteroids arcade game. I built it t
 - Asteroid generation: random spawn, random velocity, endless waves.
 - Collision detection: bullets destroy asteroids, ship collides = game over.
 - Score tracking: every asteroid destroyed adds to the score.
-- Asteroid splitting: every shot asteroid spits into to smaller ones.
+- Asteroid splitting: every shot asteroid splits into to smaller ones.
 
 ## What I Learned
 

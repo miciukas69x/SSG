@@ -2,12 +2,11 @@
 
 [< Back Home](/)
 
-![Glorfindel image](/images/aiagent.png)
+![aiagentimage](/images/aiagent.png)
 
-> "From a humble script I conjured an agent: a program that listens, reasons, and acts, all on borrowed intelligence."
-
-Sometimes the best way to learn is to wire things together and see what breaks.
-This AI agent was my experiment in connecting a language model to real-world tasks.
+> "From a humble script I conjured an agent: a program that listens, reasons, and acts, all on borrowed intelligence.
+> Sometimes the best way to learn is to wire things together and see what breaks.
+> This AI agent was my experiment in connecting a language model to real-world tasks."
 
 [View on GitHub](github.com/miciukas69x) (not done yet)
 

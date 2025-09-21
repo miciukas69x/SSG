@@ -6,9 +6,6 @@
 
 > "From plain text and templates I forged a tool — modest in scope, but enough to build a world of pages."
 
-I wanted a website, but instead of using a ready-made tool, I built the tool itself.
-This static site generator powers the page you’re reading right now. It’s simple, fast, and mine.
-
 [View on GitHub](https://github.com/miciukas69x/SSG)
 
 ## Introduction
