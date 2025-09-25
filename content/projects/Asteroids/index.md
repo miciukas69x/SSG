@@ -2,7 +2,10 @@
 
 [< Back Home](/)
 
-![asteroidsgame](/images/asteroids.png)
+<video width="600" controls autoplay muted loop>
+  <source src="/videos/asteroids-showcase.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 > "I wanted to understand how games work under the hood, 
 > so I built one of the classics from scratch. 
