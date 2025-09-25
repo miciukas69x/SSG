@@ -14,6 +14,7 @@ and eventually turning skills into independence.
 
 ## My Coding Projects (a stack)
 
+- [Maze Solver](/projects/Maze-solver)
 - [AI Agent](/projects/AIAgent)
 - [Static Site Generator](/projects/SSG)
 - [Asteroids Game](/projects/Asteroids)
