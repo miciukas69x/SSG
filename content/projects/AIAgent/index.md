@@ -2,7 +2,10 @@
 
 [< Back Home](/)
 
-![aiagentimage](/images/aiagent.png)
+<video width="600" controls autoplay muted loop>
+  <source src="/videos/ai-agent-showcase.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 > "From a humble script I conjured an agent: a program that listens, reasons, and acts, all on borrowed intelligence.
 > Sometimes the best way to learn is to wire things together and see what breaks.
