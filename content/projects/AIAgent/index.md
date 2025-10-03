@@ -11,7 +11,7 @@
 > Sometimes the best way to learn is to wire things together and see what breaks.
 > This AI agent was my experiment in connecting a language model to real-world tasks."
 
-[View on GitHub](github.com/miciukas69x) (not done yet)
+[View on GitHub](https://github.com/miciukas69x/ai_agent)
 
 ## Introduction
 
