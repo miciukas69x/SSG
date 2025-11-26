@@ -1,6 +1,6 @@
 # Building My Own Static Site Generator
 
-[< Back Home](/)
+[< Back Home](/projects/)
 
 ![ssg photo](/images/ssg.png)
 

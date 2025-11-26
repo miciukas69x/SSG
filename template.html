@@ -1,15 +1,40 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{ Title }}</title>
-    <link href="/index.css" rel="stylesheet" />
-    <link rel="icon" href="/images/miciukasfavicon.png" type="image/png" />
-    <link rel="icon" type="image/png" sizes="any" href="SSG/static/images/miciukasfavicon.png"?v=2>
+    <link rel="stylesheet" href="/index.css" />
   </head>
 
   <body>
-    <article>{{ Content }}</article>
+    <div class="page-wrapper">
+      <div class="page-background"></div>
+      <div class="page-overlay"></div>
+
+      <header class="nav">
+        <div class="nav-inner">
+          <a href="/" class="nav-logo">
+            <span class="nav-logo-main">MATAS</span>
+            <span class="nav-logo-sub">Michailinas</span>
+          </a>
+          <nav class="nav-links">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/projects">Projects</a>
+            <a href="/blogs">Blog</a>
+            <a href="/contact">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="content">
+        <article class="content-card">
+          {{ Content }}
+        </article>
+      </main>
+    </div>
   </body>
 </html>
+
+

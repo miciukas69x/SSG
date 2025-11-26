@@ -15,10 +15,4 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Build output (pick what applies)
-# If you generate the site into one of these, ignore it.
-# If you use GitHub Pages with /docs as the published folder, DO NOT ignore /docs.
-#docs/
-#dist/
-#build/
-#public/
+

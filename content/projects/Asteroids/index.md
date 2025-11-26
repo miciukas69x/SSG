@@ -1,6 +1,6 @@
 # Building Asteroids: a classic arcade game in code.
 
-[< Back Home](/)
+[< Back Home](/projects/)
 
 <video width="600" controls autoplay muted loop>
   <source src="/videos/asteroids-showcase.mp4" type="video/mp4">

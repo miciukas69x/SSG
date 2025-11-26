@@ -1,6 +1,6 @@
 # Building an AI Agent with free API's
 
-[< Back Home](/)
+[< Back Home](/projects/)
 
 <video width="600" controls autoplay muted loop>
   <source src="/videos/ai-agent-showcase.mp4" type="video/mp4">

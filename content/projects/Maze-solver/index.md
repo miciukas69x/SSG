@@ -1,6 +1,6 @@
 # Building a Maze Solver: finding paths through logic and code.
 
-[< Back Home](/)
+[< Back Home](/projects/)
 
 
 <video width="600" controls autoplay muted loop>
